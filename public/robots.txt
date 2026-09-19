@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vitalychait-github-io.vitalychait.workers.dev/sitemap.xml
+Sitemap: https://vitalychait.com/sitemap.xml
