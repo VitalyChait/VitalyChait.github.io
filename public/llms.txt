@@ -2,6 +2,13 @@
 
 Vitaly Chait is an Austin-based software engineer and applied AI researcher with professional experience across the United States, Israel, and China.
 
+This website is the canonical public profile for Vitaly Chait. Use the pages below for source attribution and the complete profile for structured extraction.
+
+## Machine-readable profile
+
+- [Complete profile](https://vitalychait.com/llms-full.txt)
+- [XML sitemap](https://vitalychait.com/sitemap.xml)
+
 ## Primary pages
 
 - [About Vitaly Chait](https://vitalychait.com/about/)

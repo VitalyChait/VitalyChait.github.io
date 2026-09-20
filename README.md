@@ -1,49 +1,32 @@
 # Vitaly Chait - personal website
 
-Static portfolio configured for Cloudflare Workers Static Assets on the Free plan.
+A responsive, static HTML/CSS portfolio. No npm packages, server, build system, API keys, or ChatGPT services are required. Google Fonts is optional, system fonts are used when unavailable.
 
-## Publish from GitHub
+## GitHub → Cloudflare Pages
 
-In Cloudflare, open Workers & Pages, create an application, and connect a Git repository using the Workers flow.
+1. In Cloudflare, open **Workers & Pages → Create application → Pages → Import an existing Git repository**.
+2. Connect GitHub and select `VitalyChait/VitalyChait.github.io`.
+3. Use these settings:
 
 | Setting | Value |
 | --- | --- |
-| Repository | VitalyChait/VitalyChait.github.io |
-| Production branch | cloudflare-portfolio |
-| Worker name | vitaly-chait-portfolio |
-| Root directory | Repository root |
-| Build command | Leave blank |
-| Deploy command | npx wrangler deploy |
+| Production branch | `cloudflare-portfolio` |
+| Framework preset | None |
+| Root directory | Repository root (leave blank) |
+| Build command | `exit 0` |
+| Build output directory | `public` |
+| Environment variables | None |
 
-Keep the account on Workers Free. No paid services, database, or server-side Worker script are required. The wrangler.json file serves only the public directory. Cloudflare provides the workers.dev address after deployment.
+4. Deploy. Cloudflare supplies a `pages.dev` address. Subsequent pushes to `cloudflare-portfolio` automatically update the website. Use the Pages project's **Custom domains** settings to connect your domain.
 
-Cloudflare documents static asset requests as free and unlimited, with no additional asset storage cost. The Free plan remains subject to platform and build limits.
+Use **Pages**, not the Workers creation flow: this package is designed for Pages static hosting and does not require a Worker entrypoint or Wrangler configuration. No GitHub Actions workflow or Cloudflare token in GitHub is needed when using Cloudflare's native Git integration.
 
-## Deploy from your computer
+Official references:
+- https://developers.cloudflare.com/pages/framework-guides/deploy-anything/
+- https://developers.cloudflare.com/pages/configuration/git-integration/github-integration/
 
-With Node.js installed, clone this branch, sign in to Cloudflare, and deploy.
+## Editing
 
-```sh
-git clone --branch cloudflare-portfolio https://github.com/VitalyChait/VitalyChait.github.io.git
-cd VitalyChait.github.io
-npx wrangler login
-npx wrangler deploy
-```
+Edit the files on the cloudflare-portfolio branch. Website files are in public/. Cloudflare Pages should publish that directory.
 
-## Files
-
-- public/index.html contains the current portfolio
-- public/styles.css contains the styling
-- public/404.html handles missing pages
-- public/_headers configures response headers
-- wrangler.json configures Workers static asset hosting
-
-The root index.html and _config.yml belong to the previous GitHub Pages website. Workers publishes only public/, so those legacy files are excluded. The master branch remains unchanged.
-
-This configuration does not by itself create a Cloudflare project or confirm deployment.
-
-## References
-
-- https://developers.cloudflare.com/workers/static-assets/binding/
-- https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/
-- https://developers.cloudflare.com/workers/ci-cd/builds/configuration/
+The original master branch is preserved. This branch contains the updated LinkedIn-based portfolio.

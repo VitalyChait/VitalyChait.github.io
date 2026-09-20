@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#101b18"/>
+  <circle cx="1035" cy="110" r="250" fill="none" stroke="#d8f87d" stroke-width="2" opacity=".28"/>
+  <circle cx="1035" cy="110" r="175" fill="none" stroke="#d8f87d" stroke-width="2" opacity=".2"/>
+  <path d="M720 500h390M760 460h310M800 420h230" stroke="#35443c" stroke-width="2"/>
+  <text x="86" y="105" fill="#d8f87d" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">ENGINEER | AUSTIN, TEXAS</text>
+  <text x="82" y="260" fill="#f4f6ee" font-family="Arial, sans-serif" font-size="92" font-weight="600">Vitaly Chait</text>
+  <text x="86" y="355" fill="#d8f87d" font-family="Arial, sans-serif" font-size="48">Software, systems, applied AI</text>
+  <text x="88" y="475" fill="#b6c0b8" font-family="Arial, sans-serif" font-size="27">Python | Linux | PyTorch | Quantitative Analytics</text>
+  <text x="88" y="548" fill="#f4f6ee" font-family="Arial, sans-serif" font-size="25">vitalychait.com</text>
+</svg>
