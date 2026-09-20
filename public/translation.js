@@ -5,8 +5,19 @@ document.addEventListener('click', event => {
   const menu = button.closest('[data-canonical-path]')
   if (!menu) return
 
+  const supportedLanguages = new Set([
+    'en', 'es', 'zh-CN', 'hi', 'ar', 'pt', 'bn', 'ru', 'ja',
+    'pa', 'de', 'jv', 'ko', 'fr', 'tr', 'vi', 'it', 'th',
+    'gu', 'fa', 'pl', 'uk', 'id', 'nl', 'ro', 'el', 'he'
+  ])
   const language = button.dataset.translateLanguage
-  const path = menu.dataset.canonicalPath
+  if (!supportedLanguages.has(language)) return
+
+  const requestedPath = menu.dataset.canonicalPath
+  const safePath = /^\/(?:[a-z0-9-]+\/)*$/i.test(requestedPath)
+    ? requestedPath
+    : '/'
+  const path = safePath.startsWith('//') ? '/' : safePath
   const original = `https://vitalychait.com${path}`
 
   if (language === 'en') {

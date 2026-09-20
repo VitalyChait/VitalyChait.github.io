@@ -1,0 +1,4 @@
+Contact: mailto:chaitvitaly@gmail.com
+Canonical: https://vitalychait.com/.well-known/security.txt
+Preferred-Languages: en, he
+Expires: 2027-09-20T23:59:59Z
