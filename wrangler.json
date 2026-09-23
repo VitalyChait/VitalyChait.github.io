@@ -1,7 +1,7 @@
 {
   "name": "vitalychait-github-io",
   "compatibility_date": "2026-09-18",
-  "workers_dev": true,
+  "workers_dev": false,
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
