@@ -59,6 +59,7 @@ Primary themes:
 ## Page directory
 
 - Home: https://vitalychait.com/
+- Personal profile and photo story: https://vitalychait.com/vitalychait/
 - About: https://vitalychait.com/about/
 - Professional experience: https://vitalychait.com/experience/
 - Brandeis University work: https://vitalychait.com/brandeis/
