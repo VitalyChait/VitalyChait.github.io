@@ -8,7 +8,7 @@ The search control beside Translate reads `/search-index.json` in the visitor's 
 python tools/build_search_index.py
 ```
 
-The index contains text from each page's main content. Matching runs in the browser after Cloudflare serves the static index.
+The index contains text from each page's main content. Matching runs in the browser after Cloudflare serves the static index. Result links include a `#find=` fragment, which scrolls to and highlights the first matching phrase on the destination page.
 
 A responsive, static HTML/CSS portfolio. No npm packages, server, build system, API keys, or ChatGPT services are required. Google Fonts is optional, system fonts are used when unavailable.
 
