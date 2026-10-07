@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://vitalychait.com/</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://vitalychait.com/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://vitalychait.com/vitalychait/</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://vitalychait.com/about/</loc></url>
   <url><loc>https://vitalychait.com/experience/</loc></url>
   <url><loc>https://vitalychait.com/brandeis/</loc></url>
-  <url><loc>https://vitalychait.com/research/</loc></url>
+  <url><loc>https://vitalychait.com/research/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://vitalychait.com/engineering/</loc></url>
-  <url><loc>https://vitalychait.com/projects/</loc></url>
-  <url><loc>https://vitalychait.com/projects/polygains/</loc></url>
+  <url><loc>https://vitalychait.com/projects/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://vitalychait.com/projects/polygains/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://vitalychait.com/projects/sundai/</loc></url>
 </urlset>
