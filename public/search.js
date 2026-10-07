@@ -37,7 +37,7 @@
     const body = normalize(page.text)
     if (!terms.every(term => title.includes(term) || body.includes(term))) return 0
     return terms.reduce((total, term) => total + (title.includes(term) ? 12 : 0) +
-      Math.min(5, body.split(term).length - 1), 0) + (page.url === '/' ? 1 : 0)
+      Math.min(5, body.split(term).length - 1), 0) - (page.url === '/' ? 0.5 : 0)
   }
 
   async function search() {
