@@ -61,11 +61,12 @@
         const title = document.createElement('strong')
         const description = document.createElement('span')
         const address = document.createElement('small')
-        link.href = page.url
+        link.href = `${page.url}#find=${encodeURIComponent(query)}`
         title.textContent = page.title
         description.textContent = excerpt(page.text, terms)
         address.textContent = page.url
         link.append(title, description, address)
+        link.addEventListener('click', () => dialog.close())
         item.append(link)
         results.append(item)
       }
@@ -91,4 +92,40 @@
       else input.focus()
     }
   })
+
+  function showMatch() {
+    document.querySelectorAll('mark.site-search-hit').forEach(mark => mark.replaceWith(...mark.childNodes))
+    if (!location.hash.startsWith('#find=')) return
+    let query
+    try { query = decodeURIComponent(location.hash.slice(6)).trim() } catch { return }
+    if (!query) return
+    const main = document.querySelector('main')
+    if (!main) return
+    const terms = [query, ...query.split(/\s+/)].filter(Boolean)
+    const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        const parent = node.parentElement
+        if (!node.textContent.trim() || parent.closest('script, style, svg, noscript, [aria-hidden="true"]')) return NodeFilter.FILTER_REJECT
+        return NodeFilter.FILTER_ACCEPT
+      }
+    })
+    const nodes = []
+    while (walker.nextNode()) nodes.push(walker.currentNode)
+    for (const term of terms) {
+      for (const node of nodes) {
+        const position = node.textContent.toLocaleLowerCase().indexOf(term.toLocaleLowerCase())
+        if (position < 0) continue
+        const range = document.createRange()
+        range.setStart(node, position)
+        range.setEnd(node, position + term.length)
+        const mark = document.createElement('mark')
+        mark.className = 'site-search-hit'
+        range.surroundContents(mark)
+        mark.scrollIntoView({block: 'center'})
+        return
+      }
+    }
+  }
+  window.addEventListener('hashchange', showMatch)
+  showMatch()
 })()
