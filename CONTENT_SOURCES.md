@@ -1,8 +1,8 @@
 # Content sources
 
-The user's October 2026 CV is the main resume and primary source for current website copy, professional responsibilities, dates, skills, and project role. The LinkedIn exports supplied on September 18, 2026 remain a secondary reference where the CV is silent.
+The user's November 5, 2026 CV is the main resume and primary source for current website copy, professional responsibilities, dates, skills, and project role. The LinkedIn exports supplied on September 18, 2026 remain a secondary reference where the CV is silent.
 
-- `public/Vitaly-Chait-Resume.pdf` is the October 2026 CV supplied by the user. The home page Resume PDF link points to this file.
+- `public/Vitaly-Chait-Resume.pdf` is the November 5, 2026 CV supplied by the user. The home page Resume PDF link points to this file.
 
 - `pdf_linkedin.pdf` supplies the profile headline, Austin location, ten-year experience summary, research project titles and dates, award, certifications, volunteering, and visible language levels.
 - `pdf_linkedin_1.pdf`, pages 1 and 2, supplies the expanded employment history and role descriptions. NeuroBlade benchmarking improvements and KLA system metrics are retained as stated in this profile. The KLA metrics describe a system contribution, not a sole individual result.
