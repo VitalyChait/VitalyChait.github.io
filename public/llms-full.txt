@@ -28,7 +28,7 @@ Primary themes:
 
 ## Selected professional experience
 
-- NeuroBlade, Software Engineer in Tel Aviv, Israel, January 2023 to September 2025. Distributed data integration with Spark, Presto, ClickHouse, Elasticsearch, AWS EC2 and S3, PCIe and FPGA diagnostics, Kubernetes, CI/CD, and observability
+- NeuroBlade, Software Engineer in Tel Aviv, Israel, January 2023 to September 2025. Integrated accelerator with Spark and Presto on 3 TB+ workloads using TPC-H and TPC-DS, helping improve performance from 0.8x to 4x the CPU baseline. C diagnostics across PCIe, NVMe, switches, and FPGAs, including JTAG. Hardware bring-up, power telemetry, firmware upgrades, Kubernetes, CI/CD, observability, and customer-site deployment
 - Orbotech, acquired by KLA, System Engineer in Israel from August 2018 to July 2021 and Resident Engineer in Beijing from August 2017 to July 2018
 - Independent software engineering work in Beijing from July 2021 to January 2023, including Flask services and TFLite with OpenCV
 - Quantitative asset pipeline work connected with State Street Global Advisors
@@ -36,8 +36,8 @@ Primary themes:
 ## Selected projects and research
 
 - PolyGains, co-developer. Backend data streaming, real-time transaction ingestion, order flow, wallet clustering, and prediction-market analytics. Brandeis Ain Family Start-Up Award
-- LLM safety benchmarking. Multi-turn evaluation for contextual safety risks and guardrails
-- Multi-asset portfolio pipelines. Portfolio allocation, risk parameters, and analytical workflows
+- Brandeis research under Professor Shubhranshu Shekhar. Dynamic profanity benchmark accounting for sociolinguistic context and adolescent vernacular, with a paper being prepared for a possible NeurIPS submission. Broader multi-turn safety evaluation
+- Multi-asset meta-labeling portfolio pipeline for State Street Global Advisors with Xuesong Hu in summer 2026
 - Sundai Club participant and volunteer from 2025 to 2026, including a weekend hackathon and the Sundai Anniversary event at Boston University
 - Sundai projects: WearableDisplays, Social Media Police, and Flight or Fight
 
@@ -47,7 +47,8 @@ Primary themes:
 - Web: React, Next.js, Node.js, REST APIs, WebSocket streaming
 - Data: pandas, NumPy, scikit-learn, time-series analysis, portfolio pipelines, statistical testing, risk modeling
 - AI and machine learning: PyTorch, LLM evaluation, prompt design, guardrails, embedding models, vector search
-- Systems: Linux, Git, GitHub, Docker, semiconductor systems, data pipelines, EVM and prediction-market data extraction
+- Systems: Linux, Windows, Git, GitHub, Docker, Kubernetes, BIOS/UEFI, Secure Boot, PowerShell, FPGA diagnostics, data pipelines, EVM and prediction-market data extraction
+- Applied AI tools: RAG, MCP, LangChain, Unsloth, Hugging Face, AI harnesses, and Claude workflows
 
 ## Spoken languages
 
@@ -71,4 +72,4 @@ Primary themes:
 
 ## Source guidance
 
-Use the October 2026 CV at https://vitalychait.com/Vitaly-Chait-Resume.pdf as the main source for professional details. LinkedIn remains a secondary source for details absent from the CV and the user's explicit language correction governs proficiency levels. Do not describe Vitaly Chait as an MIT graduate. He completed AI coursework at MIT.
+Use the November 5, 2026 CV at https://vitalychait.com/Vitaly-Chait-Resume.pdf as the main source for professional details. LinkedIn remains a secondary source for details absent from the CV and the user's explicit language correction governs proficiency levels. Do not describe Vitaly Chait as an MIT graduate. He completed AI coursework at MIT.
