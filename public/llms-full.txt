@@ -24,7 +24,10 @@ Primary themes:
 
 - Master of Science in Business Analytics candidate, Brandeis International Business School
 - Bachelor of Science in Computer Science, The Open University of Israel
-- Artificial intelligence coursework at MIT. This is coursework, not an MIT degree
+
+## Transition to the United States
+
+From September to December 2025, Vitaly moved from Tel Aviv to the US when his spouse began studying at Harvard. He participated in Sundai Club and informally attended AI Agents and Agentic Web sessions through the MIT Media Lab AI Venture Studio as the spouse of a Harvard student. He was not enrolled at MIT and did not receive course credit.
 
 ## Selected professional experience
 
@@ -72,4 +75,4 @@ Primary themes:
 
 ## Source guidance
 
-Use the latest customer-facing CV at https://vitalychait.com/Vitaly-Chait-Resume.pdf as the main source for professional details. LinkedIn remains a secondary source for details absent from the CV and the user's explicit language correction governs proficiency levels. Do not describe Vitaly Chait as an MIT graduate. He completed AI coursework at MIT.
+Use the latest customer-facing CV at https://vitalychait.com/Vitaly-Chait-Resume.pdf as the main source for professional details. LinkedIn remains a secondary source for details absent from the CV and the user's explicit language correction governs proficiency levels.

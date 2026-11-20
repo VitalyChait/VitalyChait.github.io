@@ -12,7 +12,7 @@ The user's latest customer-facing CV is the main resume and primary source for c
 - The user's explicit language correction supplies all four exact levels. Chinese is elementary, English is full professional, Hebrew is native or bilingual, and Russian is limited working.
 - PolyGains content comes from the user's original project description and https://polygains.com/. It is a project, not an inferred employment entry.
 
-The site does not describe the SSGA project as employment or a production deployment. The MIT entry is a named program, not a degree. The Brandeis MS remains in progress. No claims are inferred from truncated profile text.
+The site does not describe the SSGA project as employment or a production deployment. Per Vitaly’s clarification, the 2025 MIT sessions were attended informally as the spouse of a Harvard student and are listed under the move to the US, outside Education. The Brandeis MS remains in progress. No claims are inferred from truncated profile text.
 
 The PDFs themselves are excluded from this package because they contain unrelated LinkedIn interface content and private profile analytics.
 
