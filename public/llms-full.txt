@@ -23,7 +23,7 @@ Primary themes:
 ## Education
 
 - Master of Science in Business Analytics candidate, Brandeis International Business School
-- Bachelor of Science in Computer Science, The Open University of Israel
+- Bachelor of Science in Computer Science, The Open University of Israel. The program combines mathematical foundations with hands-on programming. Core coursework covers data structures, algorithm design and analysis, systems programming, and operating systems.
 
 ## Transition to the United States
 
