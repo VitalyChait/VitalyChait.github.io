@@ -35,7 +35,7 @@ Primary themes:
 
 ## Selected projects and research
 
-- PolyGains, co-developer. Backend data streaming, real-time transaction ingestion, order flow, wallet clustering, and prediction-market analytics. Brandeis Ain Family Start-Up Award
+- PolyGains, full-stack blockchain analytics. Polymarket trade streaming from Polygon, rule-based unusual wallet alerts, REST API, wallet performance and position history dashboard. Stack: TypeScript, Bun, Preact, Tailwind CSS, PostgreSQL, Drizzle ORM, Subsquid, SQL materialized views, GitHub Actions. Recognition: Builders and Backers Incubator, Brandeis Pitch, Ain Family Start-Up Award
 - Brandeis research under Professor Shubhranshu Shekhar. Dynamic profanity benchmark accounting for sociolinguistic context and adolescent vernacular, with a paper being prepared for a possible NeurIPS submission. Broader multi-turn safety evaluation
 - Multi-asset meta-labeling portfolio pipeline for State Street Global Advisors with Xuesong Hu in summer 2026
 - Sundai Club participant and volunteer from 2025 to 2026, including a weekend hackathon and the Sundai Anniversary event at Boston University
@@ -72,4 +72,4 @@ Primary themes:
 
 ## Source guidance
 
-Use the November 5, 2026 CV at https://vitalychait.com/Vitaly-Chait-Resume.pdf as the main source for professional details. LinkedIn remains a secondary source for details absent from the CV and the user's explicit language correction governs proficiency levels. Do not describe Vitaly Chait as an MIT graduate. He completed AI coursework at MIT.
+Use the latest customer-facing CV at https://vitalychait.com/Vitaly-Chait-Resume.pdf as the main source for professional details. LinkedIn remains a secondary source for details absent from the CV and the user's explicit language correction governs proficiency levels. Do not describe Vitaly Chait as an MIT graduate. He completed AI coursework at MIT.
